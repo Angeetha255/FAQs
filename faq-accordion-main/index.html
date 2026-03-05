@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="/faq-accordion-main/assets/images/favicon-32x32.png">
+  <title>FAQs</title>
+  <style>
+    body{
+      background-color: rgb(226, 213, 239);
+      
+    }
+    .container{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 16px;
+      margin-top:-100px;
+      margin-left: 500px;
+      position: relative;
+      max-width: 450px;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container h1{
+      font-size:60px ;
+      margin: 2px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: space-between;
+    }
+
+    .container h3{
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 2px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      padding: 15px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .container p{
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: #555;
+      margin:5px;
+      text-align: left;
+      width: 100%;
+    }
+    h3:hover{
+      color: rgb(220, 80, 245);
+    }
+    .faq{
+      display: flex;
+      align-items: center;
+      gap:10px;
+      
+    }
+    
+    .container img{
+      flex-shrink: 0;
+    }
+    
+  </style>
+  
+</head>
+<body>
+  <img src="/faq-accordion-main/assets/images/background-pattern-desktop.svg" width="100%" height="100%">
+  <card class="container">
+    <div class="faq">
+      <img src="/faq-accordion-main/assets/images/icon-star.svg"><h1><strong>FAQs</strong></h1>
+
+    </div>
+    
+    <h3>What is Frontend Mentor, and how will it help me?   <img src="/faq-accordion-main/assets/images/icon-minus.svg"></h3>
+    <p>Frontend mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML,CSS, and JavaScript.It's suitable for all levels and ideal for portfolio building.</p>
+    <h3>Is Frontend Mentor free? <img src="/faq-accordion-main/assets/images/icon-plus.svg"></h3>
+    <h3>Can I use Frontend mentor projects in my portfolio? <img src="/faq-accordion-main/assets/images/icon-plus.svg"></h3>
+    <h3>How can I get help if I'm stuck on a challenge? <img src="/faq-accordion-main/assets/images/icon-plus.svg"></h3>
+  </card>
+</body>
+</html>
